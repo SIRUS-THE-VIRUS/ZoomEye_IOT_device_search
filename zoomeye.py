@@ -14,7 +14,9 @@ host_filters = ["app", 'app:proftd'], ["ver", 'ver:2.1'], ['ip', 'ip:1.1.1.1'], 
                ['cidr', '1.2.3.4/21'], ['hostname', 'google.com'], ['port', 'port:53'], ['city', 'city:beijin'], \
                ['country', 'country:china'], ['asn', 'asn:1234'], ['device', 'device:router'], ['os', 'os:windows']
 
-web_filters = [], [], [], [], [], [], [], []
+web_filters = ["app", 'app:proftd'], ['header','header:server'], ['keywords','keywords:baidu.com'], ['desc','desc:hello'],\
+              ['title','title:baidu'], ['ip','ip:192.168.1.1'], ['site','site:baidu.com'], ['city', 'city:beijin'],\
+              ['country', 'country:china']
 
 choice = int(input("what are you searching?\n1)host 2) web\n=======>>>>> "))
 if choice == 1:
