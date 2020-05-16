@@ -21,13 +21,13 @@ web_filters = ["app", 'app:proftd'], ['header','header:server'], ['keywords','ke
 choice = int(input("what are you searching?\n1)host 2) web\n=======>>>>> "))
 if choice == 1:
     print(tabulate(host_filters, headers=['Name', 'Description']))
-    print("EXAMPLE: country:jamaica +port:8080 +service:http")
+    print("EXAMPLE: country:china +port:8080 +service:http")
     query = input("Enter search string: ")
     encoded_query = urllib.parse.quote_plus(query)
     url = "https://api.zoomeye.org/host/search?query=" + encoded_query + "&page=1"
 elif choice == 2:
     print(tabulate(web_filters, headers=['Name', 'Description']))
-    print("EXAMPLE: country:jamaica +port:8080 +service:http")
+    print("EXAMPLE: country:china +port:8080 +service:http")
     query = input("Enter search string: ")
     encoded_query = urllib.parse.quote_plus(query)
     url = "https://api.zoomeye.org/web/search?query=" + encoded_query + "&page=1"
