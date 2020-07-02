@@ -9,7 +9,7 @@ Use git-clone to download and run with python3
 
 Account needed on [ZoomEye](https://www.zoomeye.org/) to interact
 
-Required modules : [Requests](https://pypi.org/project/requests/), [Urlliib.parse](https://docs.python.org/3/library/urllib.parse.html), [getpass](https://docs.python.org/3.1/library/getpass.html), [tabulate](https://pypi.org/project/tabulate/)
+Required Libraries : [Requests](https://pypi.org/project/requests/), [Urlliib.parse](https://docs.python.org/3/library/urllib.parse.html), [getpass](https://docs.python.org/3.1/library/getpass.html), [tabulate](https://pypi.org/project/tabulate/)
 
 ```bash
 git clone https://github.com/SIRUS-THE-VIRUS/ZoomEye_IOT_device_search.git
